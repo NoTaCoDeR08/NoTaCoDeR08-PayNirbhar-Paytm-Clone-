@@ -1,0 +1,51 @@
+/* Home.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f4f7fc;
+  }
+  
+  .hero-section {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #3498db;
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  .hero-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  button {
+    background-color: #fff;
+    color: #3498db;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+    color: white;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #2c3e50;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
